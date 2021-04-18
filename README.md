@@ -12,7 +12,7 @@
 
 ![image](https://raw.githubusercontent.com/nishihere19/text-editor/main/Screenshots/Screenshot%20from%202021-04-18%2015-05-09.png?token=APCSNF6HWKWI2KTVTXOIAWDAQU5QY)
 
-#Development
+# Development
 
 export MONGO_URI and JWT_SECRET from keys/db.js in backend before starting the server.
 
