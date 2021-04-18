@@ -1,0 +1,41 @@
+.file-option-menu {
+    margin-bottom: 0;
+}
+
+.option-dropdown {
+    width: 75px;
+    font-size: 14px;
+    padding-left: 11px;
+    padding-right: 11px;
+    color: inherit;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.option-dropdown:hover {
+    color: inherit;
+}
+
+.filename-input{
+    border: none;
+}
+
+.filename-input:hover {
+   background-color: thistle;
+}
+
+.filename-input:focus {
+    background-color: #fff;
+    border: black solid 2px;
+}
+
+#access-table {
+    margin-top: 10px;
+}
+
+#share-button-row {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 0;
+}

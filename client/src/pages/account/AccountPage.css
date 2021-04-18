@@ -1,0 +1,30 @@
+#account-page-container {
+    margin-top: 128px;
+    display: flex;
+    justify-content: center;
+}
+
+.user-info-update-form {
+    margin-top: 8px;
+}
+
+.update-submit-button {
+    margin-top: 24px !important;
+    margin-bottom: 12px !important;
+}
+
+@media screen and (min-width: 1201px) {
+    #account-setting-card {width: 60%}
+}
+
+@media screen and (max-width: 1200px) {
+    #account-setting-card {width: 60%}
+}
+
+@media screen and (max-width: 901px) {
+    #account-setting-card {width: 80%}
+}
+
+@media screen and (max-width: 500px) {
+    #account-setting-card {width: 100%}
+}

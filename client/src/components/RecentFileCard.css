@@ -1,0 +1,69 @@
+.recent-file-card {
+    width: 208px;
+    height: 338px;
+    margin: 10px;
+
+}
+
+#card-cover {
+    width: 100%;
+    height: 263px;
+    /*border: 1px solid #f0f0f0;*/
+    border-right: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.file-card-col {
+    display: flex;
+    justify-content: center;
+}
+
+.recent-file-card .ant-card-body {
+    padding-top: 8px;
+    padding-bottom: 0;
+}
+
+.file-info-row {
+    text-align: center;
+}
+
+.filename-row {
+    font-weight: 600;
+}
+
+.date-row {
+    font-size: 12px;
+}
+
+.more-icon-col {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.drop-down-button {
+    position: relative;
+    left: 10px;
+}
+
+.drop-down-button .ant-dropdown-trigger {
+    border: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.drop-down-button .ant-dropdown-trigger:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+    border-radius: 50% !important;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,45 @@
+#app-bar {
+    background-color: #03fcca;
+}
+
+#app-bar-logo {
+    max-width: 230px;
+    height: auto;
+}
+
+.logo-link {
+    width: 230px;
+    height: auto;
+    color: black;
+    font-size: 1.3rem;
+}
+.logo-link:hover {
+    color: maroon;
+}
+
+#Share-btn{
+    background-color: black;
+    color: wheat;
+    font-weight: bold;
+    width: 150px;
+    border-radius: 30px;
+}
+.avatar{
+    width:50px;
+    height:50px;
+}
+#tool-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hidden-element {
+    display: none;
+}
+
+#save-time-message {
+    color: rgb(100, 100, 100);
+    margin-bottom: 0;
+    margin-right: 20px;
+    font-weight: 400;
+}

@@ -1,0 +1,36 @@
+#editor-div {
+    height: 100% !important;
+}
+
+.editor-info-div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border: rgba(0, 0, 0, 0.08) solid 1px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(10,16,20,.24),0 0 2px rgba(10,16,20,.12);
+}
+
+#editor-info-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1201px) {
+    #editor-div {width: 60%}
+}
+
+@media screen and (max-width: 1200px) {
+    #editor-div {width: 60%}
+}
+
+@media screen and (max-width: 901px) {
+    #editor-div {width: 80%}
+}
+
+@media screen and (max-width: 500px) {
+    #editor-div {width: 100%}
+}

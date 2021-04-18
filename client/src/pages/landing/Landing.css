@@ -1,0 +1,84 @@
+#landing-body {
+    background-color: #03fcca;
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-image: url("../../assets/img/landing-bg.png");
+    padding: 0 5%;
+}
+
+#landing-row {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+}
+
+#landing-img-1 {
+    display: inline-block;
+    height: auto;
+    z-index: 1;
+    position: relative;
+    max-width: 580px;
+    animation: imgBounce 3s ease infinite;
+}
+
+#landing-img-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    display: block;
+    opacity: 0.15;
+    height: auto;
+    max-width: 580px;
+}
+
+@keyframes imgBounce{
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(0, 4%);
+    }
+}
+
+#login-box-col {
+    display: flex;
+    justify-content: center;
+}
+
+#heading {
+    color: #ffffff;
+}
+
+#title-row {
+    padding-top: 2%;
+    padding-right: 5%;
+    font-size: 50px;
+}
+
+
+#landing-logo {
+    padding: 0;
+    max-width: 480px;
+    max-height: 80px;
+    font-weight: 700;
+
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+#landing-slogan {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    max-width: 580px;
+}
