@@ -11,6 +11,10 @@
 ![image](https://raw.githubusercontent.com/nishihere19/text-editor/main/Screenshots/Screenshot%20from%202021-04-18%2015-04-46.png?token=APCSNF6UCNEL55ATR4UHPFDAQU5PW)
 
 ![image](https://raw.githubusercontent.com/nishihere19/text-editor/main/Screenshots/Screenshot%20from%202021-04-18%2015-05-09.png?token=APCSNF6HWKWI2KTVTXOIAWDAQU5QY)
+
+#Development
+export MONGO_URI and JWT_SECRET from keys/db.js in backend before starting the server.
+
 Steps to run on Locally:
 
 >git clone https://github.com/nishihere19/text-editor.git
